@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/backgroundd"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,18 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/logo_eat_it"
-            android:contentDescription="TODO" />
-        <TextView
-            android:gravity="center"
-            android:id="@+id/txtSlogan"
-            android:text="@string/slogan"
-            android:textColor="@android:color/white"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 
     <LinearLayout
